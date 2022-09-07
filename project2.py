@@ -18,12 +18,12 @@ while(guess!=random_number):
 
 print("You have Guessed The NUmber in",guess_num,"Steps.")
 
-with open ('hiscore.txt','r') as f:
-    hiscore = int(f.read())
-if(guess_num<int('hiscore')):
-    print("You Have Broken The High Score!")
-    with open('hiscore.txt','w') as f:
-        f.write(str(guess_num))
+# with open ('hiscore.txt','r') as f:
+#     hiscore = int(f.read())
+# if(guess_num<int('hiscore')):
+#     print("You Have Broken The High Score!")
+#     with open('hiscore.txt','w') as f:
+#         f.write(str(guess_num))
 
 
 
