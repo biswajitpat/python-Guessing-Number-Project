@@ -1,31 +1,3 @@
-#from random import randint
-# def generator():
-#     return randint(1,100)
-
-
-# def guess_number():
-    
-#     rand_number= generator()
-#     guess_left=5
-#     flag= True
-
-#     while(guess_left>0):
-#         guess= int(input("Pick a Number Between 1 to 100: "))
-#         if(guess== rand_number):
-#             flag= True
-#             break
-
-#         else:
-#             print("Wrong Guess!!")
-#             flag = False
-#     guess_left_=1
-#     return flag
-# if __name__ == "__main__":
-#     if(guess_number()):
-#         print("Congratulations, $$You Won$$")
-#     else:
-#         print("Sryyy!! You lost ")
-
 
 import random
 random_number= random.randint(1,100)
